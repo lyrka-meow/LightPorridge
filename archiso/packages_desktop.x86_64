@@ -193,3 +193,7 @@ gtk3
 tk
 python
 xorg-setxkbmap
+xorg-xsetroot
+xf86-video-ati
+xf86-video-intel
+xf86-video-vesa
