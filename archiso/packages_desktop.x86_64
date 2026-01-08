@@ -12,8 +12,6 @@ bind
 brltty
 btrfs-progs
 cachy-chroot
-cachyos-cli-installer-new
-cachyos-hello
 cachyos-hooks
 cachyos-keyring
 cachyos-mirrorlist
