@@ -41,7 +41,7 @@ _try_v3() {
         echo "backup old config"
         mv $pacman_conf $pacman_conf_path_backup
 
-        echo "CachyOS -v3 Repo changed"
+        echo "LightPorridge -v3 Repo changed"
         mv $pacman_conf_cachyos $pacman_conf
 
     else

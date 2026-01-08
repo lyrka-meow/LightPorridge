@@ -33,4 +33,7 @@ file_permissions=(
   ["/usr/local/bin/removeun-online"]="0:0:755"
   ["/usr/local/bin/prepare-live-desktop.sh"]="0:0:755"
   ["/usr/local/bin/nvidia-module-loader"]="0:0:755"
+  ["/etc/skel/installer.py"]="0:0:755"
+  ["/etc/skel/.bash_profile"]="0:0:755"
+  ["/etc/skel/.xinitrc"]="0:0:755"
 )
