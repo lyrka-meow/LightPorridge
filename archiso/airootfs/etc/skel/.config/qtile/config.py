@@ -36,7 +36,7 @@ screens = [
 def autostart():
     home = os.path.expanduser('~')
     subprocess.Popen(['setxkbmap', '-layout', 'us,ru', '-option', 'grp:alt_shift_toggle'])
-    subprocess.Popen([home + '/installer.py'])
+    subprocess.Popen(['sudo', '/usr/bin/python3', home + '/installer.py'])
 
 dgroups_key_binder = None
 dgroups_app_rules = []

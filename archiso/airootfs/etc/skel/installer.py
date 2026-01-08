@@ -328,7 +328,7 @@ chown -R {user}:{user} /home/{user}/.config
                 with open(src_cfg, 'r') as f:
                     cfg_content = f.read()
                 
-                cfg_content = cfg_content.replace("subprocess.Popen([home + '/installer.py'])", "# Installer removed")
+                cfg_content = cfg_content.replace("subprocess.Popen(['sudo', '/usr/bin/python3', home + '/installer.py'])", "# Installer removed")
                 
                 with open(dst_cfg, 'w') as f:
                     f.write(cfg_content)
